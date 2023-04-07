@@ -9,10 +9,10 @@ namespace CoreAndFood.Controllers
 {
     public class DefaultController : Controller
     {
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public IActionResult Index()
         {
-            return View();
+            return View(); 
         }
     }
 }
